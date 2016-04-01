@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/popup_menu_margin"
+    android:padding="@dimen/popup_menu_padding"
+    android:background="@drawable/menu_bg_selector">
+    <TextView
+        android:id="@+id/menu_color_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="start"
+        android:text="@string/action_color_screen"
+        android:textColor="@color/popup_menu_font_color"
+        android:textSize="@dimen/popup_menu_font_size"
+        android:drawableLeft="@drawable/color_screen"
+        android:drawableStart="@drawable/color_screen"
+        android:drawablePadding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/popup_menu_item_margin"
+        android:layout_marginBottom="@dimen/popup_menu_item_margin"
+        android:background="@drawable/line_separator" />
+
+    <TextView
+        android:id="@+id/menu_tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="start"
+        android:text="@string/action_start_sos"
+        android:textColor="@color/popup_menu_font_color"
+        android:textSize="@dimen/popup_menu_font_size"
+        android:drawableLeft="@drawable/tool_bar"
+        android:drawableStart="@drawable/tool_bar"
+        android:drawablePadding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/popup_menu_item_margin"
+        android:layout_marginBottom="@dimen/popup_menu_item_margin"
+        android:background="@drawable/line_separator" />
+
+    <TextView
+        android:id="@+id/menu_rate_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="start"
+        android:text="@string/action_rate_us"
+        android:textColor="@color/popup_menu_font_color"
+        android:textSize="@dimen/popup_menu_font_size"
+        android:drawableLeft="@drawable/rate_us"
+        android:drawableStart="@drawable/rate_us"
+        android:drawablePadding="10dp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">多彩手电筒</string>
+
+    <string name="action_color_screen">彩屏照明</string>
+    <string name="action_start_sos">开启SOS</string>
+    <string name="action_stop_sos">关闭SOS</string>
+    <string name="action_rate_us">给个好评</string>
+    <string name="action_settings">更多设置</string>
+
+    <string name="color_picker_title">选择颜色</string>
+    <string name="not_support">对不起,您的设备不支持闪光灯！</string>
+    <string name="open_failed">摄像头已被其他应用占用,请先关闭照相机或者其他手电筒应用!</string>
+    <string name="message_no_store">没有找到应用市场，请安装任意应用市场后重试！</string>
+</resources>
