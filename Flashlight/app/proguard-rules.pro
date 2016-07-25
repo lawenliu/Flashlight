@@ -35,3 +35,9 @@
 -keepnames class * implements android.os.Parcelable {
     public static final ** CREATOR;
 }
+
+-keepattributes Signature
+-dontwarn android.support.**
+-dontwarn com.squareup.**
+-dontwarn okio.**
+-keep class com.wandoujia.ads.sdk.** { *; }
