@@ -6,6 +6,7 @@
     <string name="action_stop_sos">关闭SOS</string>
     <string name="action_rate_us">给个好评</string>
     <string name="action_settings">更多设置</string>
+    <string name="action_close_ads">关闭广告</string>
 
     <string name="color_picker_title">选择颜色</string>
     <string name="not_support">对不起,您的设备不支持闪光灯！</string>

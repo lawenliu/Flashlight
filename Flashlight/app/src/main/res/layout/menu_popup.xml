@@ -27,6 +27,26 @@
         android:background="@drawable/line_separator" />
 
     <TextView
+        android:id="@+id/menu_close_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="start"
+        android:text="@string/action_close_ads"
+        android:textColor="@color/popup_menu_font_color"
+        android:textSize="@dimen/popup_menu_font_size"
+        android:drawableLeft="@drawable/close_ads"
+        android:drawableStart="@drawable/close_ads"
+        android:drawablePadding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/popup_menu_item_margin"
+        android:layout_marginBottom="@dimen/popup_menu_item_margin"
+        android:background="@drawable/line_separator" />
+
+    <TextView
         android:id="@+id/menu_tool_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
